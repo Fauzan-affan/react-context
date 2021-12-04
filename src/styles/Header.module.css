@@ -1,0 +1,39 @@
+.header {
+  background-color: #c3cfd9;
+  padding: 0.5em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  font-weight: bold;
+}
+
+.header_right {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.header_right_1 {
+  cursor: pointer;
+}
+
+.header_notif {
+  margin-left: 1em;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.header_right_2_toggle_theme {
+  cursor: pointer;
+  font-size: medium;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+.header_right_3_login {
+  cursor: pointer;
+  font-size: medium;
+  padding: 0.5em;
+  margin-left: 1em;
+}

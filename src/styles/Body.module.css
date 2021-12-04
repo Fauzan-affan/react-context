@@ -1,0 +1,41 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  padding: 4em 6em;
+}
+
+.body_content_column {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 0.5em;
+}
+
+.body_content {
+  margin-top: 1em;
+  vertical-align: middle;
+
+  border: black 1px solid;
+}
+
+.body_content_img {
+  background-color: #f7f9fa;
+  height: 6em;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding: 0.5em 0.5em;
+}
+
+.body_content_img_desc {
+  margin-bottom: -1.5em;
+  cursor: pointer;
+}
+
+.body_content_desc {
+  padding: 0.5em 0.5em;
+}

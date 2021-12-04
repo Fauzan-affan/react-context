@@ -1,0 +1,100 @@
+.card_container {
+  border: 3px rgb(200, 200, 200) solid;
+
+  min-height: 17em;
+  min-width: 17em;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding: 7em 4em; */
+}
+
+.gap {
+  margin: 1em 0;
+}
+
+.card_title {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card_body {
+  margin-top: 2em;
+}
+
+.card_username {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card_username_label {
+  margin-right: 1em;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.card_username_input_text {
+  width: 130%;
+  margin: 8px 0;
+  padding: 8px;
+
+  border: 1px solid #aaa;
+}
+
+.card_username_input_text:hover {
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+}
+
+.card_username_input_text:focus {
+  border: 2px solid rgb(158, 158, 158);
+  border-radius: 4px;
+  outline: none;
+}
+
+.card_password {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card_password_label {
+  margin-right: 1.3em;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.card_password_input_text {
+  width: 130%;
+  margin: 8px 0;
+  padding: 8px;
+
+  border: 1px solid #aaa;
+}
+
+.card_password_input_text:hover {
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+}
+
+.card_password_input_text:focus {
+  border: 2px solid rgb(158, 158, 158);
+  border-radius: 4px;
+  outline: none;
+}
+
+.card_submit {
+  margin-top: 4em;
+  margin-left: 10em;
+}
+
+.card_submit_button {
+  cursor: pointer;
+  font-size: medium;
+  padding: 1em 2em;
+}
